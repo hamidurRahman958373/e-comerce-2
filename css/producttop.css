@@ -1,0 +1,53 @@
+.product-top img {
+    width: 100%;
+
+
+}
+
+.over-lay-right {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    margin-left: 0;
+    top: 156%;
+    width: 70px;
+}
+
+.over-lay-right .fa {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.over-lay-right .btn-secondary {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.product-top:hover .over-lay-right {
+    opacity: 1;
+    margin-left: 2%;
+    transition: 0.5s;
+}
+
+.product-bottom .fa {
+    color: orange;
+    font-size: 10px;
+}
+
+.product-bottom h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-bottom h5 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}

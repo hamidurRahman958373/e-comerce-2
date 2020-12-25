@@ -1,0 +1,14 @@
+.feature-categories {
+    margin: 50px 0;
+}
+
+.feature-categories img {
+    width: 100%;
+    padding: 20px 0;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.feature-categories img:hover {
+    transform: scale(1.1);
+}

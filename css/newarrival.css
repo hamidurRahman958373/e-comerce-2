@@ -1,0 +1,69 @@
+.product-top-2 img,
+.product-top-3 img {
+    width: 100%;
+
+
+}
+
+.over-lay-right-2 {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    margin-left: 0;
+    top: 220%;
+    width: 70px;
+}
+
+.over-lay-right-3 {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    margin-left: 0;
+    top: 265%;
+    width: 70px;
+}
+
+.over-lay-right-2 .fa,
+.over-lay-right-3 .fa {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.over-lay-right-2 .btn-secondary-2,
+.over-lay-right-3 .btn-secondary-3 {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.product-top-2:hover .over-lay-right-2,
+.product-top-3:hover .over-lay-right-3 {
+    opacity: 1;
+    margin-left: 2%;
+    transition: 0.5s;
+}
+
+.product-bottom-2 .fa,
+.product-bottom-3 .fa {
+    color: orange;
+    font-size: 10px;
+}
+
+.product-bottom-2 h3,
+.product-bottom-3 h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-bottom-2 h5,
+.product-bottom-3 h5 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
